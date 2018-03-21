@@ -14,17 +14,23 @@ You got component documentation!
 
 # Installation
 Vue-documentor is available as a npm package at
-> yarn add vue-documentor
+```
+yarn add vue-documentor
+```
 
 or
 
-> npm install vue-documentor
+```
+npm install vue-documentor
+```
 
 
 # Getting started
 
 1. Install vue-documentor
-    > yarn add vue-documentor
+    ```
+    yarn add vue-documentor
+    ```
 1. Add vue-documentor to routing and parse your components
 1. Profit!
 
@@ -113,7 +119,9 @@ You will now be able to visit `/#/documentor` to see your vue-documentor
 # Theming
 You can easily create your own theme by copying the vue-documentor/style directory to your own assets.
 
-> cp node_modules/vue-documentor/style src/assets/vue-documentor-theme
+```
+cp node_modules/vue-documentor/style src/assets/vue-documentor-theme
+```
 
 # Inspired by
 This package is inspired by [https://github.com/propellant/doctor/](https://github.com/propellant/doctor/ "propellant/doctor").
